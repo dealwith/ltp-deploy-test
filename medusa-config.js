@@ -82,7 +82,7 @@ const projectConfig = {
         ? { ssl: { rejectUnauthorized: false } }
         : {},
   // Uncomment the following lines to enable REDIS
-  // redis_url: REDIS_URL
+  redis_url: REDIS_URL
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule} */
